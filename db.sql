@@ -1,0 +1,10 @@
+CREATE DATABASE portflolio;
+USE portflolio;   
+    
+    CREATE TABLE realizacje (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	tytul VARCHAR(255) NOT NULL,
+	opis TEXT NOT NULL,
+	obrazek VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
