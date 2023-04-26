@@ -1,13 +1,7 @@
 body {
 	font-family: Arial, sans-serif;
+    background:blue;
 }
-.jumbotron {
-	background-color: #f8f9fa;
-}
-.card {
-	margin-top: 20px;
-}
-.card-img-top {
-	height: 200px;
-	object-fit: cover;
+#omnie {
+    text-align:center;
 }
